@@ -14,11 +14,11 @@
             </tr>
             </thead>
             <tbody>
-            {% for dino in dinos %}
+            {% for dino in dinosaurs %}
                 <tr>
                     <td>{{ dino.name }}</td>
                     <td>{{ dino.genus }}</td>
-                    <td>{{ dino.length }}</td>
+                    <td>{{ dino.sizeDescription }}</td>
                     <td>{{ dino.enclosure }}</td>
                 </tr>
             {% endfor %}
